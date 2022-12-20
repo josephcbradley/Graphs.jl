@@ -413,8 +413,11 @@ export
     independent_set,
 
     # vertexcover
-    vertex_cover
+    vertex_cover,
 
+    # planarity
+    is_planar,
+    pmfg
 """
     Graphs
 
@@ -528,6 +531,8 @@ include("vertexcover/degree_vertex_cover.jl")
 include("vertexcover/random_vertex_cover.jl")
 include("Experimental/Experimental.jl")
 include("Parallel/Parallel.jl")
+include("planarity.jl")
+include("spanningtrees/pmfg.jl")
 
 using .LinAlg
 end # module
