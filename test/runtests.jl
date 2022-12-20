@@ -117,6 +117,7 @@ tests = [
     "vertexcover/degree_vertex_cover",
     "vertexcover/random_vertex_cover",
     "experimental/experimental",
+    "planarity",
 ]
 
 @testset verbose = true "Graphs" begin
