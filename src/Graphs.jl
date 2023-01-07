@@ -417,7 +417,7 @@ export
 
     # planarity
     is_planar,
-    pmfg
+    planar_maximally_filtered_graph
 """
     Graphs
 
@@ -532,7 +532,7 @@ include("vertexcover/random_vertex_cover.jl")
 include("Experimental/Experimental.jl")
 include("Parallel/Parallel.jl")
 include("planarity.jl")
-include("spanningtrees/pmfg.jl")
+include("spanningtrees/planar_maximally_filtered_graph.jl")
 
 using .LinAlg
 end # module
