@@ -543,6 +543,7 @@ include("Experimental/Experimental.jl")
 include("Parallel/Parallel.jl")
 include("planarity.jl")
 include("spanningtrees/planar_maximally_filtered_graph.jl")
+include("Test/Test.jl")
 
 using .LinAlg
 end # module
